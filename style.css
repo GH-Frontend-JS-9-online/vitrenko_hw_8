@@ -1,0 +1,27 @@
+* {
+	font-size: 110%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #82E0AA;
+}
+
+header {
+	text-align: center;
+}
+
+.level button {
+	margin:0 5%;
+	display: inline;
+}
+
+button {
+	margin-top: 3%;
+}
+
+main p {
+	display: flex;
+	justify-content: space-around;
+	margin: 1% auto;
+}

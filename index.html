@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style.css">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<title>Tamagochi</title>
+</head>
+<body>
+	<header>
+		<div class="level">
+			<button>Easy</button>
+			<button>Hard</button>
+		</div>
+		<button onclick="start()">Start</button>
+	</header>
+
+	<main>
+			<p>
+				<span>Food</span>		 
+				<span>Clean</span>		 
+				<span>Happiness</span>	
+			</p>
+			
+			<p>		 
+				<progress class="food" id="food" max="100"></progress>
+				<progress class="clean" id="clean" max="100"></progress>
+				<progress class="happiness" id="happiness" max="100"></progress>
+			</p>
+			
+			<p>
+				<button onclick="eat()">Feed Me!</button>
+				<button onclick="wash()">Wash Me!</button>
+				<button onclick="play()">Play with Me!</button>
+			</p>
+
+			<button onclick="document.location.reload(true)">Restart</button>		
+	</main>	
+	<script src="./easy.js"></script>
+</body>
+</html>
